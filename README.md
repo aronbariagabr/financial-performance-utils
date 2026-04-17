@@ -116,6 +116,17 @@ ctest
 │   Recruiter-ready portfolio    │
 └───────────────────────────────┘
 
+## 🗂 Project Architecture Diagram (Mermaid)
+
+```mermaid
+flowchart TD
+    A[Data Sources<br/>CSV files, financial data] --> B[Transaction Parser<br/>Efficient parsing & validation]
+    B --> C[Metrics Optimizer<br/>Real-time computation]
+    C --> D[Benchmarks<br/>Baseline vs optimized runs]
+    D --> E[Testing Suite<br/>Reliability with GoogleTest]
+    E --> F[Examples & Docs<br/>Demo workflows, architecture]
+    F --> G[End Impact<br/>Recruiter-ready portfolio]
+
 🔄 Workflow
 Load Transactions → Read financial records from CSV.
 
