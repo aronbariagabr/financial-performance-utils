@@ -81,58 +81,40 @@ ctest
 ## 🗂 Project Architecture Diagram
 
 ```text
-┌───────────────────────────────────────────────┐
-│                 Data Sources                  │
-│   CSV files, financial datasets, sample_data  │
-└───────────────┬───────────────────────────────┘
+┌───────────────────────────────┐
+│          Data Sources          │
+│   CSV files, financial data    │
+└───────────────┬───────────────┘
                 │
-┌───────────────┴───────────────────────────────┐
-│              Transaction Parser               │
-│   src/transaction_parser.cpp                  │
-│   include/parser.h                            │
-│   Efficient parsing & validation of records   │
-└───────────────┬───────────────────────────────┘
+┌───────────────┴───────────────┐
+│     Transaction Parser         │
+│   Efficient parsing & validation│
+└───────────────┬───────────────┘
                 │
-┌───────────────┴───────────────────────────────┐
-│              Metrics Optimizer                │
-│   src/metrics_optimizer.cpp                   │
-│   include/optimizer.h                         │
-│   Real-time metric computation & optimization │
-└───────────────┬───────────────────────────────┘
+┌───────────────┴───────────────┐
+│     Metrics Optimizer          │
+│   Real-time computation        │
+└───────────────┬───────────────┘
                 │
-┌───────────────┴───────────────────────────────┐
-│                 Benchmarks                    │
-│   benchmarks/benchmark_parser.cpp             │
-│   benchmarks/benchmark_metrics.cpp            │
-│   Compare baseline vs optimized performance   │
-└───────────────┬───────────────────────────────┘
+┌───────────────┴───────────────┐
+│        Benchmarks              │
+│   Baseline vs optimized runs   │
+└───────────────┬───────────────┘
                 │
-┌───────────────┴───────────────────────────────┐
-│                 Testing Suite                 │
-│   tests/parser_tests.cpp                      │
-│   tests/metrics_tests.cpp                     │
-│   GoogleTest for reliability & maintainability│
-└───────────────┬───────────────────────────────┘
+┌───────────────┴───────────────┐
+│        Testing Suite           │
+│   Reliability with GoogleTest  │
+└───────────────┬───────────────┘
                 │
-┌───────────────┴───────────────────────────────┐
-│                 Examples                      │
-│   examples/demo_run.cpp                       │
-│   examples/sample_data.csv                    │
-│   Demonstrates workflow integration & usage   │
-└───────────────┬───────────────────────────────┘
+┌───────────────┴───────────────┐
+│         Examples & Docs        │
+│   Demo workflows, architecture │
+└───────────────┬───────────────┘
                 │
-┌───────────────┴───────────────────────────────┐
-│                 Documentation                 │
-│   docs/architecture.md                        │
-│   Diagrams, workflow notes, design decisions  │
-└───────────────┬───────────────────────────────┘
-                │
-┌───────────────┴───────────────────────────────┐
-│                 End Impact                    │
-│   Recruiter-ready portfolio project           │
-│   Showcases system design, performance focus  │
-│   Demonstrates enterprise-grade repo layout   │
-└───────────────────────────────────────────────┘
+┌───────────────┴───────────────┐
+│          End Impact            │
+│   Recruiter-ready portfolio    │
+└───────────────────────────────┘
 
 🔄 Workflow
 Load Transactions → Read financial records from CSV.
