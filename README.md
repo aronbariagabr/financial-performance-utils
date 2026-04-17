@@ -77,6 +77,13 @@ cmake ..
 make
 ctest
 ./examples/demo_run
+mkdir build && cd build
+cmake ..
+make
+ctest
+./examples/demo_run
+
+
 
 ## 🗂 Project Architecture Diagram
 
