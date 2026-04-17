@@ -93,21 +93,21 @@ ctest
                 │
 ┌───────────────┴───────────────┐
 │     Metrics Optimizer          │
-│   Real-time computation        │
+│     Real-time computation      │
 └───────────────┬───────────────┘
                 │
 ┌───────────────┴───────────────┐
-│        Benchmarks              │
+│          Benchmarks            │
 │   Baseline vs optimized runs   │
 └───────────────┬───────────────┘
                 │
 ┌───────────────┴───────────────┐
-│        Testing Suite           │
+│         Testing Suite          │
 │   Reliability with GoogleTest  │
 └───────────────┬───────────────┘
                 │
 ┌───────────────┴───────────────┐
-│         Examples & Docs        │
+│       Examples & Docs          │
 │   Demo workflows, architecture │
 └───────────────┬───────────────┘
                 │
