@@ -80,7 +80,7 @@ ctest
 
 ## 🗂 Project Architecture Diagram
 
-```markdown
+
 ┌───────────────────────────────┐
 │          Data Sources          │
 │   CSV files, financial data    │
