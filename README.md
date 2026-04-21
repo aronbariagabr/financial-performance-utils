@@ -78,9 +78,10 @@ make
 ctest
 ./examples/demo_run
 
-## 🗂 Project Architecture Diagram
+### 🏗️ Box‑Style Architecture Diagram
 
-
+```markdown
+## 🏗️ Architecture Diagram  
 ┌───────────────────────────────┐
 │          Data Sources          │
 │   CSV files, financial data    │
