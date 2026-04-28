@@ -41,8 +41,22 @@ The utilities demonstrate efficient transaction parsing, optimized metric comput
 
 ---
 
-## 📁 Repository Structure
 
+
+
+---
+
+## ⚡ Quickstart
+
+### Build
+```bash
+mkdir build && cd build
+cmake ..
+make
+ctest
+./examples/demo_run
+
+## 📁 Repository Structure
 financial-performance-utils/
 │── README.md
 │── src/
@@ -64,19 +78,6 @@ financial-performance-utils/
 │── docs/
 │   ├── architecture.md
 │── CMakeLists.txt
-
-
----
-
-## ⚡ Quickstart
-
-### Build
-```bash
-mkdir build && cd build
-cmake ..
-make
-ctest
-./examples/demo_run
 
 ### 🏗️ Box‑Style Architecture Diagram
 
