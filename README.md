@@ -117,7 +117,7 @@ ctest
 │   Recruiter-ready portfolio    │
 └───────────────────────────────┘
 
-## 🗂 Project Architecture Diagram (Mermaid)
+## 📁 Project Architecture Diagram (Mermaid)
 
 ```mermaid
 flowchart TD
