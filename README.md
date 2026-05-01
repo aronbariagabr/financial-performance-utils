@@ -55,7 +55,7 @@ cd financial-performance-utils
 # 2. Configure and build
 mkdir build && cd build
 cmake ..
-make -j$(nproc)  # Faster builds using multiple cores
+make -j$(nproc)
 
 # 3. Run the automated tests
 ctest --output-on-failure
