@@ -48,36 +48,42 @@ The utilities demonstrate efficient transaction parsing, optimized metric comput
 
 ## ⚡ Quickstart
 
-### Build
-```bash
+# 1. Clone the repository
+git clone https://github.com/aronbariagabr/financial-performance-utils.git
+cd financial-performance-utils
+
+# 2. Configure and build
 mkdir build && cd build
 cmake ..
-make
-ctest
+make -j$(nproc)  # Faster builds using multiple cores
+
+# 3. Run the automated tests
+ctest --output-on-failure
+
+# 4. Execute the performance demo
 ./examples/demo_run
 
 ## 📁 Repository Structure
 financial-performance-utils/
-│── README.md
-│── src/
+├── src/                    # Implementation files
 │   ├── main.cpp
 │   ├── transaction_parser.cpp
-│   ├── metrics_optimizer.cpp
-│── include/
+│   └── metrics_optimizer.cpp
+├── include/                # Headers
 │   ├── parser.h
-│   ├── optimizer.h
-│── tests/
+│   └── optimizer.h
+├── tests/                  # Unit tests
 │   ├── parser_tests.cpp
-│   ├── metrics_tests.cpp
-│── benchmarks/
+│   └── metrics_tests.cpp
+├── benchmarks/             # Performance testing
 │   ├── benchmark_parser.cpp
-│   ├── benchmark_metrics.cpp
-│── examples/
+│   └── benchmark_metrics.cpp
+├── examples/               # Usage demos
 │   ├── demo_run.cpp
-│   ├── sample_data.csv
-│── docs/
-│   ├── architecture.md
-│── CMakeLists.txt
+│   └── sample_data.csv
+├── docs/                   # Documentation
+│   └── architecture.md
+└── CMakeLists.txt          # Build configuration
 
 ### 🏗️ Box‑Style Architecture Diagram
 
