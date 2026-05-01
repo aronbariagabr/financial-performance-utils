@@ -48,19 +48,12 @@ The utilities demonstrate efficient transaction parsing, optimized metric comput
 
 ## ⚡ Quickstart
 
-# 1. Clone the repository
-git clone https://github.com/aronbariagabr/financial-performance-utils.git
-cd financial-performance-utils
-
-# 2. Configure and build
+### Build and Run
+```bash
 mkdir build && cd build
 cmake ..
-make -j$(nproc)
-
-# 3. Run the automated tests
-ctest --output-on-failure
-
-# 4. Execute the performance demo
+make
+ctest
 ./examples/demo_run
 
 
