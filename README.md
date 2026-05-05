@@ -40,25 +40,8 @@ The utilities demonstrate efficient transaction parsing, optimized metric comput
 - **Testing Framework:** GoogleTest  
 
 ---
-
-
-
-
----
-
-## ⚡ Quickstart
-
-### Build and Run
-```bash
-mkdir build && cd build
-cmake ..
-make
-ctest
-./examples/demo_run
-
-
-
 ## 📁 Repository Structure
+```bash
 financial-performance-utils/
 ├── src/                    # Implementation files
 │   ├── main.cpp
@@ -79,6 +62,24 @@ financial-performance-utils/
 ├── docs/                   # Documentation
 │   └── architecture.md
 └── CMakeLists.txt          # Build configuration
+
+
+
+
+---
+
+## ⚡ Quickstart
+
+### Build and Run
+```bash
+mkdir build && cd build
+cmake ..
+make
+ctest
+./examples/demo_run
+
+
+
 
 ### 🏗️ Box‑Style Architecture Diagram
 
