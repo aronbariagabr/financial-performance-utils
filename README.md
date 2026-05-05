@@ -64,10 +64,6 @@ financial-performance-utils/
 └── CMakeLists.txt          # Build configuration
 
 
-
-
----
-
 ## ⚡ Quickstart
 
 ### Build and Run
