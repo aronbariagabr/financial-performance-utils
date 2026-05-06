@@ -116,6 +116,15 @@ ctest
 │   Recruiter-ready portfolio    │
 └───────────────────────────────┘
 
+🔄 Workflow
+- Load Transactions → Read financial records from CSV.
+- Parse & Validate → Ensure correctness and filter invalid data.
+- Optimize Metrics → Apply algorithms for performance improvements.
+- Benchmark → Compare baseline vs optimized execution times.
+- Report Results → Output metrics and performance logs.
+```
+
+
 ## 📁 Project Architecture Diagram (Mermaid)
 
 ```mermaid
@@ -126,10 +135,3 @@ flowchart TD
     D --> E[Testing Suite<br/>Reliability with GoogleTest]
     E --> F[Examples & Docs<br/>Demo workflows, architecture]
     F --> G[End Impact<br/>Recruiter-ready portfolio]
-
-🔄 Workflow
-- Load Transactions → Read financial records from CSV.
-- Parse & Validate → Ensure correctness and filter invalid data.
-- Optimize Metrics → Apply algorithms for performance improvements.
-- Benchmark → Compare baseline vs optimized execution times.
-- Report Results → Output metrics and performance logs.
