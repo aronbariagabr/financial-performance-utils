@@ -135,3 +135,22 @@ flowchart TD
     D --> E[Testing Suite<br/>Reliability with GoogleTest]
     E --> F[Examples & Docs<br/>Demo workflows, architecture]
     F --> G[End Impact<br/>Recruiter-ready portfolio]
+
+    %% Define seven unique color classes
+    classDef data fill:#ffcc00,stroke:#333,stroke-width:2px;
+    classDef parser fill:#00ccff,stroke:#333,stroke-width:2px;
+    classDef metrics fill:#66ff66,stroke:#333,stroke-width:2px;
+    classDef benchmarks fill:#ff9966,stroke:#333,stroke-width:2px;
+    classDef testing fill:#cc99ff,stroke:#333,stroke-width:2px;
+    classDef docs fill:#33cccc,stroke:#333,stroke-width:2px;
+    classDef impact fill:#ff6666,stroke:#333,stroke-width:2px;
+
+    %% Apply classes to each box
+    class A data;
+    class B parser;
+    class C metrics;
+    class D benchmarks;
+    class E testing;
+    class F docs;
+    class G impact;
+
